@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.banner_section{
+    height: 50%;
+    width: 100%;
+    background-image: url("a32.jpg");
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    padding: 20px auto;
+}
+.banner_heading{
+    color: #ffffff;
+    font-weight: 600;
+    filter: drop-shadow(5px 5px 3px rgb(244, 244, 4));
+}
+.item_card{
+    margin-top: 30px;
+    border-radius: 16px;
+    border: solid 0.5px rgb(153, 111, 111);
+    
+}
+.price_card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 15px;
+    border-top: solid rgb(1, 26, 26);
+    align-items: center;
+}
+.button{
+    text-align: center;
+    padding: 8px 60px;
+    margin-bottom: 8px;
+    border-radius: 25px;
+    background-color: rgb(41, 207, 41);
+    font-weight: 400;
+    font-size: 22px;
+
+}
+.footer_section{
+    background-color: #242424;
+}
+.info{
+    font-size: 24px;
+    color: rgb(184, 241, 241);
+}
+span{
+    font-size: 28px;
+    color: red;
+    background-color: rgb(213, 245, 10);
+    padding: 5px 8px;
+    border-radius: 18px;
+}
